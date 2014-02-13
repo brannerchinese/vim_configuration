@@ -158,10 +158,10 @@ hi SpellRare term=bold,reverse cterm=bold,reverse
 hi clear SpellLocal
 hi SpellLocal term=underline cterm=underline
 " This is in the same directory as the current vimrc_extras file
-if filereadable("/home/dpb/develop_coding/configuration_files/spellfile.add")
-    set spellfile=~/develop_coding/configuration_files/spellfile.add
-  elseif filereadable("/Users/dpb11/develop/develop_coding/configuration_files/spellfile.add")
-    set spellfile=/Users/dpb11/develop/develop_coding/configuration_files/spellfile.add
+if filereadable("/home/dpb/develop/vim_configuration/spellfile.add")
+    set spellfile=~/develop/vim_configuration/spellfile.add
+  elseif filereadable("/Users/dpb11/develop/vim_configuration/spellfile.add")
+    set spellfile=/Users/dpb11/develop/vim_configuration/spellfile.add
 endif
 
 
