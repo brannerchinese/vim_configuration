@@ -13,6 +13,8 @@ endif
 
 ```
 
-Note that /home/<username> is used on Ubuntu and /Users/<username> on OS X.
+Note that `/home/<username>` is used on Ubuntu and `/Users/<username>` on OS X.
+
+The `rest` content is not in use now.
 
 [end]
