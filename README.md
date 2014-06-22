@@ -15,6 +15,6 @@ endif
 
 Note that `/home/<username>` is used on Ubuntu and `/Users/<username>` on OS X.
 
-The `rest` content is not in use now.
+The `rest` content is not in use now and has not been edited.
 
 [end]
