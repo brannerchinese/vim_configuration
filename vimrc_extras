@@ -1,6 +1,10 @@
-source /Users/dpb/bitbucket_public/vim_configuration/autoload/pathogen.vim
+if filereadable("/Users/dpb/bitbucket_public/vim_configuration/autoload/pathogen.vim")
+  source /Users/dpb/bitbucket_public/vim_configuration/autoload/pathogen.vim
+endif
+if filereadable("/home/dpb/develop/vim_configuration/autoload/pathogen.vim")
+  source /home/dpb/develop/vim_configuration/autoload/pathogen.vim
+endif
 execute pathogen#infect()
-" call pathogen#runtime_append_all_bundles()
 
 """""""""""""""""""""""""""""""
 """"""" GENERAL MATTER """"""""
