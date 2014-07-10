@@ -1,3 +1,7 @@
+source /Users/dpb/bitbucket_public/vim_configuration/autoload/pathogen.vim
+execute pathogen#infect()
+" call pathogen#runtime_append_all_bundles()
+
 """""""""""""""""""""""""""""""
 """"""" GENERAL MATTER """"""""
 """""""""""""""""""""""""""""""
@@ -297,3 +301,6 @@ au BufNewFile *.py,*.pyw,*.c,*.h set fileformat=unix
 " 20130608: for MacVim; also improves appearance in the OS X Terminal
 set background=dark
 
+" For vim-javascript
+let javascript_enable_domhtmlcss=1
+let b:javascript_fold=1
