@@ -310,3 +310,7 @@ set background=dark
 " For vim-javascript
 let javascript_enable_domhtmlcss=1
 let b:javascript_fold=1
+
+" for Markdown
+autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
