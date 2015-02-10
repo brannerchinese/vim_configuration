@@ -313,3 +313,6 @@ let b:javascript_fold=1
 
 " for Markdown
 autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown ai
+
+" for printing
+au BufRead,BufNewFile *.py,*.md,*.txt set printoptions=number:y,left:12pt,right:12pt,top:12pt,bottom:12pt,paper:letter
