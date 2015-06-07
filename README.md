@@ -17,4 +17,13 @@ Note that `/home/<username>` is used on Ubuntu and `/Users/<username>` on OS X.
 
 The `rest` content is not in use now and its content is unchanged from the originally-downloaded version.
 
+### Install Pathogen
+
+Following https://github.com/tpope/vim-pathogen:
+
+```bash
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
+
 [end]
