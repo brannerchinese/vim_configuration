@@ -19,6 +19,8 @@ The `rest` content is not in use now and its content is unchanged from the origi
 
 ### Install Pathogen
 
+Pathogen is available on Linux, but for other operating systems, install from source:
+
 Following https://github.com/tpope/vim-pathogen:
 
 ```bash
